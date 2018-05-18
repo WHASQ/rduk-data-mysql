@@ -1,0 +1,42 @@
+{
+  "name": "@rduk/data-mysql",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "pretest": "npm run lint",
+    "test": "RDUK_CONFIG_PATH=./spec/resources istanbul cover jasmine --report cobertura",
+    "report": "istanbul report",
+    "coveralls": "npm run report && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rd-uk/rduk-data-mysql.git"
+  },
+  "keywords": [
+    "rduk",
+    "data",
+    "mysql"
+  ],
+  "author": "RDUK <tech@rduk.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rd-uk/rduk-data-mysql/issues"
+  },
+  "homepage": "https://github.com/rd-uk/rduk-data-mysql#readme",
+  "dependencies": {
+    "@rduk/configuration": "2.2.0",
+    "@rduk/data": "0.2.2"
+  },
+  "peerDependencies": {
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "dotenv": "5.0.1",
+    "standard": "11.0.1"
+  }
+}

@@ -1,0 +1,14 @@
+---
+connections:
+  -
+    name: conntest
+    user: dbuser
+    password: dbpassword
+    database: dbname
+data:
+  default: mysql
+  providers:
+    -
+      name: mysql
+      type: ~/lib
+      connection: conntest
