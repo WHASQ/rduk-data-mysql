@@ -1,6 +1,6 @@
 {
   "name": "@rduk/data-mysql",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "lib/index.js",
   "directories": {
@@ -30,7 +30,7 @@
   "homepage": "https://github.com/rd-uk/rduk-data-mysql#readme",
   "dependencies": {
     "@rduk/configuration": "2.2.0",
-    "@rduk/data": "0.2.2"
+    "@rduk/data": "0.3.0"
   },
   "peerDependencies": {
     "mysql": "^2.15.0"
