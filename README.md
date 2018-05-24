@@ -1,6 +1,6 @@
 # RDUK - MySQL Data Provider (WIP)
 
-[![Build Status](https://travis-ci.org/rd-uk/rduk-data-pg.svg?branch=master)](https://travis-ci.org/rd-uk/rduk-data-mysql)
+[![Build Status](https://travis-ci.org/rd-uk/rduk-data-mysql.svg?branch=master)](https://travis-ci.org/rd-uk/rduk-data-mysql)
 [![Coverage Status](https://coveralls.io/repos/github/rd-uk/rduk-data-mysql/badge.svg?branch=master)](https://coveralls.io/github/rd-uk/rduk-data-mysql?branch=master)
 [![Greenkeeper badge](https://badges.greenkeeper.io/rd-uk/rduk-data-mysql.svg)](https://greenkeeper.io/)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
