@@ -29,9 +29,9 @@ npm i --save @rduk/configuration @rduk/data mysql @rduk/data-mysql
 connections:
   -
     name: conn1
-    user: ${PG_USER}
-    password: ${PG_PASSWORD}
-    database: ${PG_DB_NAME}
+    user: ${DB_USER}
+    password: ${DB_PASSWORD}
+    database: ${DB_NAME}
 data:
   default: mysql
   providers:
