@@ -1,7 +1,10 @@
 {
   "name": "@rduk/data-mysql",
   "version": "0.0.2",
-  "description": "",
+  "description": "MySQL Data Provider implementation for rduk-data",
+  "engines": {
+    "node": ">=8.11.1"
+  },
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
@@ -20,6 +23,7 @@
   "keywords": [
     "rduk",
     "data",
+    "provider",
     "mysql"
   ],
   "author": "RDUK <tech@rduk.fr>",
@@ -28,15 +32,18 @@
     "url": "https://github.com/rd-uk/rduk-data-mysql/issues"
   },
   "homepage": "https://github.com/rd-uk/rduk-data-mysql#readme",
-  "dependencies": {
-    "@rduk/configuration": "2.2.0",
-    "@rduk/data": "0.3.0"
-  },
   "peerDependencies": {
+    "@rduk/configuration": "2.x",
+    "@rduk/data": "0.x",
     "mysql": "^2.15.0"
   },
   "devDependencies": {
+    "@rduk/configuration": "2.2.0",
+    "@rduk/data": "0.4.1",
+    "coveralls": "3.0.1",
     "dotenv": "5.0.1",
+    "istanbul": "0.4.5",
+    "jasmine": "3.1.0",
     "standard": "11.0.1"
   }
 }
