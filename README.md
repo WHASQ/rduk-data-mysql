@@ -32,6 +32,7 @@ connections:
     user: ${DB_USER}
     password: ${DB_PASSWORD}
     database: ${DB_NAME}
+    timeout: ${DB_TIMEOUT}
 data:
   default: mysql
   providers:
