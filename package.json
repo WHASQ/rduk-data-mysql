@@ -1,6 +1,6 @@
 {
   "name": "@rduk/data-mysql",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "MySQL Data Provider implementation for rduk-data",
   "engines": {
     "node": ">=8.11.1"
